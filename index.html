@@ -207,22 +207,22 @@ function render(){
     }
 
     if(mins===30 && !spoken30.has(key)){
-      notify(`Потяг ${dep.line} до ${dep.direction} відправляється через 30 хвилин з платформи ${dep.platform}`);
+      notify(`поїзд, номер, ${dep.line}, зі Сполученням, ${dep.direction} , відправиться, із ${dep.platform}., колії, через 30, хвилин`);
       spoken30.add(key);
     }
 
     if(mins===15 && !spoken15.has(key)){
-      notify(`Потяг ${dep.line} до ${dep.direction} відправляється через 15 хвилин з платформи ${dep.platform}`);
+      notify(`поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}.,через 15, хвилин`);
       spoken15.add(key);
     }
 
     if(mins===5 && !spoken5.has(key)){
-      notify(`Потяг ${dep.line} до ${dep.direction} відправляється через 5 хвилин з платформи ${dep.platform}`);
+      notify(`поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}.,через 5, хвилин`);
       spoken5.add(key);
     }
 
     if(mins===1 && !spoken1.has(key)){
-      notify(`Потяг ${dep.line} до ${dep.direction} відправляється через 1 хвилину з платформи ${dep.platform}`);
+      notify(`поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}.,через 1, хвилину`);
       spoken1.add(key);
     }
 
