@@ -212,17 +212,17 @@ function render(){
     }
 
     if(mins===15 && !spoken15.has(key)){
-      notify(`Шановні пасажири поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}., колії, через 15, хвилин`);
+      notify(`Шановні пасажири Продовжуеться Посадка на поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}., колії, через 15, хвилин`);
       spoken15.add(key);
     }
 
     if(mins===5 && !spoken5.has(key)){
-      notify(`Шановні пасажири поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}., колії, через 5, хвилин`);
+      notify(`Шановні пасажири Закінчується Посадка на поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}., колії, через 5, хвилин`);
       spoken5.add(key);
     }
 
     if(mins===1 && !spoken1.has(key)){
-      notify(`Шановні пасажири поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправиться, із ${dep.platform}., колії, через 1, хвилину`);
+      notify(`Шановні пасажири поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправляеться, із ${dep.platform}., колії, щасливої дороги`);
       spoken1.add(key);
     }
 
