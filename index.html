@@ -207,7 +207,7 @@ function render(){
     }
 
     if(mins===30 && !spoken30.has(key)){
-      notify(`Шановні пасажири поїзд, номер, ${dep.line}, зі Сполученням, ${dep.direction} , відправиться, із ${dep.platform}., колії, через 30, хвилин`);
+      notify(`Шановні пасажири Починається Посадка на поїзд, номер, ${dep.line}, зі Сполученням, ${dep.direction} , відправиться, із ${dep.platform}., колії, через 30, хвилин`);
       spoken30.add(key);
     }
 
@@ -222,7 +222,7 @@ function render(){
     }
 
     if(mins===1 && !spoken1.has(key)){
-      notify(`Шановні пасажири Починається Посадка на поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправляеться, із ${dep.platform}., колії, щасливої дороги`);
+      notify(`Шановні пасажири поїзд, номер, ${dep.line} зі Сполученням, ${dep.direction} відправляеться, із ${dep.platform}., колії, щасливої дороги`);
       spoken1.add(key);
     }
 
